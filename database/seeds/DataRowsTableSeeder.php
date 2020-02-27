@@ -19,15 +19,15 @@ class DataRowsTableSeeder extends Seeder
         $dataRow = $this->dataRow($paradasDataType, 'id');
         if (!$dataRow->exists) {
             $dataRow->fill([
-                'type' => "text",
-                'display_name' => "Nombre",
-                'required' => 1,
-                'browse' => 1,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
-                'order' => 2,
+                'type' => "number",
+                'display_name' => "Id",
+                'required'     => 1,
+                'browse'       => 0,
+                'read'         => 0,
+                'edit'         => 0,
+                'add'          => 0,
+                'delete'       => 0,
+                'order'        => 1,
             ])->save();
         }
 
