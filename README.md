@@ -15,7 +15,7 @@
 -   ###### change the value of `APP_URL` in the `.env` file from `http://localhost` to `http://localhost:8000`
 -   ###### execute the migration and the user seed with the follow command: `php artisan migrate --seed`
 -   ###### The user credentials are `email: admin@gmail.com` & `password:secret`
--   ###### Assign admin privileges to the existing user with the command: `php artisan voyager:admin
+-   ###### Assign admin privileges to the existing user with the command: `php artisan voyager:admin`
 -   ###### Run the voyager seeders: `php artisan db:seed --class=VoyagerDatabaseSeeder`
 -   ###### Run `php artisan hook:setup` to install the hooks system.
 -   ###### Run `php artisan storage:link` to create the storage symlink to your public folder.
